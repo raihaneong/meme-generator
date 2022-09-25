@@ -1,0 +1,7 @@
+.message{
+    margin: 1em;
+    padding: 1em;
+    color: white;
+    border: 5px red solid;
+    border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    animation: textcolor ease-out 4s infinite;
+}
+
+@keyframes textcolor {
+    0%
+    {
+        color: #313131;
+    }
+    50%
+    {
+        color: white;
+    }
+    100%
+    {
+        color: #313131;
+    }
+}
